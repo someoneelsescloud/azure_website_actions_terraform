@@ -17,10 +17,10 @@ terraform {
   }
 
   cloud {
-    organization = "SomeoneElsesCloud"
+    organization = "TERRAFORM-ORG-NAME"
 
     workspaces {
-      name = "azure-website-github-actions"
+      name = "TERRAFORM-WORKSPACE-NAME"
     }
   }
 
